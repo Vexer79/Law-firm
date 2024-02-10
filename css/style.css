@@ -51,6 +51,9 @@ nav ul li {
     height: 100vh;
     width: 100%;
     background: center / cover no-repeat url("../img/main.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /*desktop*/
