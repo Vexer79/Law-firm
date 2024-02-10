@@ -66,6 +66,7 @@ h2 {
     text-align: center;
     font-size: 40px;
     align-self: center;
+    height: 7%;
 }
 
 .about_us {
@@ -73,7 +74,13 @@ h2 {
 }
 
 .about_us-image {
-    background: url(../img/about_us.jpg) 100% / 100% 100%;
+    background: center / contain no-repeat url(../img/about_us.jpg);
+}
+
+.about_us .row {
+    height: 93%;
+    width: 100%; 
+    padding: 0 5%;
 }
 
 /*desktop*/
