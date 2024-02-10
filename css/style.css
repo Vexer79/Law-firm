@@ -24,6 +24,12 @@ header {
     height: 60px;
 }
 
+nav {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
 nav ul {
     display: flex;
 }
