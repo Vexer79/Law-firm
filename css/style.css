@@ -79,7 +79,7 @@ h2 {
 
 .about_us .row {
     height: 93%;
-    width: 100%; 
+    width: 100%;
     padding: 0 5%;
 }
 
@@ -90,6 +90,24 @@ h2 {
     display: flex;
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.02);
+}
+
+.areas_of_practice {
+    height: 50vh;
+}
+
+.areas_of_practice h2,
+.get_in_touch h2 {
+    height: 14%;
+}
+
+.areas_of_practice .row,
+.get_in_touch .row {
+    height: 86%;
+}
+
+.get_in_touch {
+    height: 50vh;
 }
 
 /*desktop*/
