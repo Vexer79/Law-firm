@@ -21,7 +21,7 @@
 header {
     position: absolute;
     width: 100%;
-    height: 60px;
+    height: 90px;
     justify-content: space-between;
     padding: 0 5%;
 }
@@ -42,8 +42,9 @@ nav ul li {
 
 .logo {
     background: url("../img/icon.svg") 100% / 100% 100%;
-    height: 60px;
-    width: 60px;
+    height: 70px;
+    width: 70px;
+    margin: 10px 0;
 }
 
 .home {
