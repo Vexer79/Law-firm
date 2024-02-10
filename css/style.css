@@ -5,6 +5,19 @@
     height: 100%;
 }
 
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.col {
+    flex-direction: column;
+}
+
 header {
     position: absolute;
     width: 100%;
@@ -17,19 +30,6 @@ nav ul {
 
 nav ul li {
     padding: 0 15px;
-}
-
-.d-flex {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.row {
-    flex-direction: row;
-}
-
-.col {
-    flex-direction: column;
 }
 
 /*desktop*/
