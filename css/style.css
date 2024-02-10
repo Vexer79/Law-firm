@@ -68,6 +68,10 @@ h2 {
     align-self: center;
 }
 
+.about_us {
+    height: 100vh;
+}
+
 /*desktop*/
 @media (min-width: 993px) {
     .col-lg-1 {
