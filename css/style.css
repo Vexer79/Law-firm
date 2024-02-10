@@ -57,6 +57,12 @@ nav ul li {
     flex-direction: column;
 }
 
+
+.home h1 {
+    color: white;
+    font-size: 50px;
+}
+
 /*desktop*/
 @media (min-width: 993px) {
     .col-lg-1 {
