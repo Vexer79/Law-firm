@@ -74,7 +74,7 @@ h2 {
 }
 
 .about_us-image {
-    background: center / contain no-repeat url(../img/about_us.jpg);
+    background: bottom 50% left 40% / contain no-repeat url(../img/about_us.jpg);
 }
 
 .about_us .row {
@@ -83,8 +83,17 @@ h2 {
     padding: 0 5%;
 }
 
+.about_us-text {
+    padding: 3%;
+    font-size: 2rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.02);
+}
+
 /*desktop*/
-@media (min-width: 993px) {
+@media (min-width: 1053px) {
     .col-lg-1 {
         width: 8.33%;
     }
@@ -135,7 +144,7 @@ h2 {
 }
 
 /*tablet*/
-@media (min-width: 769px) and (max-width: 992px) {
+@media (min-width: 769px) and (max-width: 1052px) {
     .col-md-1 {
         width: 8.33%;
     }
