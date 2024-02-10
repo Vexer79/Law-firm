@@ -5,6 +5,12 @@
     height: 100%;
 }
 
+header {
+    position: absolute;
+    width: 100%;
+    height: 60px;
+}
+
 /*desktop*/
 @media (min-width: 993px) {
     .col-lg-1 {
