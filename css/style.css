@@ -11,11 +11,11 @@ header {
     height: 60px;
 }
 
-nav ul{
+nav ul {
     display: flex;
 }
 
-nav ul li{
+nav ul li {
     padding: 0 15px;
 }
 
