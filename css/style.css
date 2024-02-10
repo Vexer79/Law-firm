@@ -72,6 +72,10 @@ h2 {
     height: 100vh;
 }
 
+.about_us-image {
+    background: url(../img/about_us.jpg) 100% / 100% 100%;
+}
+
 /*desktop*/
 @media (min-width: 993px) {
     .col-lg-1 {
