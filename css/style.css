@@ -19,6 +19,19 @@ nav ul li {
     padding: 0 15px;
 }
 
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.col {
+    flex-direction: column;
+}
+
 /*desktop*/
 @media (min-width: 993px) {
     .col-lg-1 {
