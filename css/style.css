@@ -111,19 +111,24 @@ h2 {
 }
 
 .box-1 {
-
+    background: url(../img/icon1.png) center no-repeat;
 }
 
 .box-2 {
-
+    background: url(../img/icon2.png) center no-repeat;
 }
 
 .box-3 {
-
+    background: url(../img/icon3.png) center no-repeat;
 }
 
 .box-4 {
+    background: url(../img/icon4.png) center no-repeat;
+}
 
+.box-1, .box-2, .box-3, .box-4 {
+    background-size: 75%;
+    height: 100%;
 }
 
 /*desktop*/
