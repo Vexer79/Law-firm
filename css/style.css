@@ -130,6 +130,10 @@ h2 {
     font-size: 2em;
 }
 
+.container-get_in_touch {
+    padding: 2em 0;
+}
+
 /*desktop*/
 @media (min-width: 1053px) {
     .col-lg-1 {
