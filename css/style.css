@@ -96,18 +96,12 @@ h2 {
     height: 50vh;
 }
 
-.areas_of_practice h2,
-.get_in_touch h2 {
+.areas_of_practice h2{
     height: 14%;
 }
 
-.areas_of_practice .row,
-.get_in_touch .row {
+.areas_of_practice .row{
     height: 86%;
-}
-
-.get_in_touch {
-    height: 75vh;
 }
 
 .box-1 {
