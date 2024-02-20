@@ -131,7 +131,13 @@ h2 {
 }
 
 .container-get_in_touch {
+    display: flex;
+    justify-content: center;
     padding: 2em 0;
+}
+
+.container-get_in_touch h2:hover {
+    background-color: orange;
 }
 
 /*desktop*/
