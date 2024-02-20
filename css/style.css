@@ -108,6 +108,11 @@ h2 {
     display: flex;
 }
 
+.container-areas-of-practice .content > div {
+    width: 25%;
+    flex-direction: column;
+}
+
 .box-1 {
     background: url(../img/icon1.png) center top 20% no-repeat;
 }
