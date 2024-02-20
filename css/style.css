@@ -48,7 +48,7 @@ nav ul li {
     margin: 10px 0;
 }
 
-.home {
+.container-home {
     height: 100vh;
     width: 100%;
     background: center / cover no-repeat url("../img/main.jpg");
@@ -58,7 +58,7 @@ nav ul li {
     flex-direction: column;
 }
 
-.home h1 {
+.container-home h1 {
     color: white;
     font-size: 50px;
 }
@@ -70,7 +70,7 @@ h2 {
     height: 7%;
 }
 
-.about-us {
+.container-about-us {
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -80,7 +80,7 @@ h2 {
     background: bottom 50% left 40% / contain no-repeat url(../img/about_us.jpg);
 }
 
-.about-us div {
+.container-about-us div {
     height: 93%;
     width: 100%;
     padding: 0 5%;
@@ -96,17 +96,17 @@ h2 {
     background-color: rgba(0, 0, 0, 0.02);
 }
 
-.areas-of-practice {
+.container-areas-of-practice {
     display: flex;
     flex-direction: column;
     height: 50vh;
 }
 
-.areas-of-practice h2{
+.container-areas-of-practice h2{
     height: 14%;
 }
 
-.areas-of-practice .row{
+.container-areas-of-practice .row{
     height: 86%;
     display: flex;
 }
