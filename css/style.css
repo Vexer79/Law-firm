@@ -22,6 +22,7 @@ header {
     position: absolute;
     width: 100%;
     height: 90px;
+    display: flex;
     justify-content: space-between;
     padding: 0 5%;
 }
@@ -70,6 +71,8 @@ h2 {
 }
 
 .about_us {
+    display: flex;
+    flex-direction: column;
     height: 100vh;
 }
 
@@ -77,10 +80,11 @@ h2 {
     background: bottom 50% left 40% / contain no-repeat url(../img/about_us.jpg);
 }
 
-.about_us .row {
+.about_us div {
     height: 93%;
     width: 100%;
     padding: 0 5%;
+    display: flex;
 }
 
 .about_us-text {
@@ -93,6 +97,8 @@ h2 {
 }
 
 .areas_of_practice {
+    display: flex;
+    flex-direction: column;
     height: 50vh;
 }
 
@@ -102,6 +108,7 @@ h2 {
 
 .areas_of_practice .row{
     height: 86%;
+    display: flex;
 }
 
 .box-1 {
