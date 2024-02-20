@@ -72,7 +72,7 @@ h2 {
     height: 100vh;
 }
 
-.about-us-image {
+.container-about-us .image {
     background: bottom 50% left 40% / contain no-repeat url(../img/about_us.jpg);
 }
 
@@ -83,7 +83,7 @@ h2 {
     display: flex;
 }
 
-.about-us-text {
+.container-about-us .text {
     padding: 3%;
     font-size: 2rem;
     text-align: center;
