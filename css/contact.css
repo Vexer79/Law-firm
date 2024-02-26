@@ -65,3 +65,61 @@ textarea {
         width: 100%;
     }
 }
+
+@media (max-width: 768px) and (min-width: 426px) {
+    .wrapper {
+        background-color: #111111;
+    }
+
+    form {
+        border-radius: 15px;
+        border: solid 1px gray;
+        padding: 45px;
+        background-color: #fff;
+    }
+}
+
+@media (max-width: 426px) {
+
+    .wrapper{
+        background-color: #111111;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    form {
+        width: 100vw;
+        height: 75%;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+
+    input {
+        height: 30px;
+        width: 80vw;
+    }
+
+    form p,
+    input,
+    label,
+    .submit {
+        padding: 10px 0;
+    }
+
+    textarea {
+        width: 80vw;
+        height: 50px;
+    }
+
+    .submit button {
+        height: 45px;
+        width: 50vw;
+        border-radius: 10px;
+    }
+}
