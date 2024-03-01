@@ -20,29 +20,34 @@
     font-family: 'Jost';
 }
 
-form p {
+form {
+    display: grid;
+    grid-template: repeat(5, 1fr) / repeat(2, 1fr);
+    width: 70%;
+    column-gap: 5%;
+}
+
+form>div {
+    display: flex;
+    flex-direction: column;
+}
+
+form div:first-child {
+    grid-column: span 2;
     font-family: 'Josefin Sans';
     text-align: center;
-    font-size: 3rem;
+    font-size: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 form p::first-letter {
     text-transform: uppercase;
 }
 
-.row {
-    display: flex;
-}
-
-.row>div,
-.message {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
-
 label {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     color: #555;
 }
 
@@ -52,18 +57,28 @@ textarea {
     border-radius: 5px;
 }
 
-.submit {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.row div:last-child {
-    padding-left: 2vw;
-}
-
 input {
     height: 30px;
+}
+
+.message,
+.submit {
+    grid-column: span 2;
+}
+
+textarea {
+    height: 50px;
+}
+
+.submit {
+    align-items: center;
+    justify-content: center;
+}
+
+.submit button {
+    height: 45px;
+    width: 200px;
+    border-radius: 10px;
 }
 
 form p,
@@ -73,21 +88,15 @@ label,
     padding: 10px 0;
 }
 
-textarea {
-    height: 50px;
-}
-
-.submit button {
-    height: 45px;
-    width: 150px;
-    border-radius: 10px;
-}
-
 @media (max-width: 1024px) and (min-width: 769px) {
 
     .image-container,
     .form-container {
         width: 50%;
+    }
+
+    form {
+        width: 90%;
     }
 }
 
@@ -107,30 +116,23 @@ textarea {
     }
 
     form {
+        width: 85%;
         border-radius: 15px;
         border: solid 1px gray;
-        padding: 45px;
+        padding: 30px;
         background-color: #fff;
     }
 }
 
 @media (max-width: 426px) {
 
-    .wrapper{
+    .wrapper {
         background-color: #111111;
-    }
-
-    .row {
-        flex-direction: column;
-    }
-
-    .row div:last-child {
-        padding-left: 0;
     }
 
     form {
         width: 100vw;
-        height: 75%;
+        padding: 30px;
         background-color: #fff;
         display: flex;
         flex-direction: column;
@@ -142,13 +144,6 @@ textarea {
     input {
         height: 30px;
         width: 80vw;
-    }
-
-    form p,
-    input,
-    label,
-    .submit {
-        padding: 10px 0;
     }
 
     textarea {
