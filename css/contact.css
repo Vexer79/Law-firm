@@ -17,9 +17,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Jost';
 }
 
 form p {
+    font-family: 'Josefin Sans';
     text-align: center;
     font-size: 3rem;
 }
