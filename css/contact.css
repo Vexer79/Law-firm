@@ -34,6 +34,13 @@ form>div {
     flex-direction: column;
 }
 
+form p,
+input,
+label,
+.submit {
+    padding: 10px 0;
+}
+
 form div:first-child {
     grid-column: span 2;
     font-family: 'Josefin Sans';
@@ -58,12 +65,13 @@ textarea {
     border: solid 1px #e6e6e6;
     border-radius: 5px;
     transition: all 0.5s ease-in-out;
+    padding: 10px;
 }
 
 input:hover,
 input:focus,
 textarea:hover,
-textarea:focus{
+textarea:focus {
     border-color: #555;
 }
 
@@ -99,16 +107,9 @@ textarea {
     transition: all 0.5s ease-out;
 }
 
-.submit button:hover{
+.submit button:hover {
     background-color: black;
     color: white;
-}
-
-form p,
-input,
-label,
-.submit {
-    padding: 10px 0;
 }
 
 @media (max-width: 1024px) and (min-width: 769px) {
