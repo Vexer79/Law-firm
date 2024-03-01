@@ -88,6 +88,12 @@ textarea {
     border-radius: 10px;
     font-size: 1.25rem;
     letter-spacing: 2px;
+    transition: all 0.5s ease-out;
+}
+
+.submit button:hover{
+    background-color: black;
+    color: white;
 }
 
 form p,
