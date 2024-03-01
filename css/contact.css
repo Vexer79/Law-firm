@@ -18,7 +18,7 @@
 
 form p {
     text-align: center;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 form p::first-letter {
@@ -36,9 +36,14 @@ form p::first-letter {
     text-align: center;
 }
 
+label {
+    font-size: 1.5rem;
+    color: #555;
+}
+
 input,
 textarea {
-    border: solid 1px lightgray;
+    border: solid 1px #e6e6e6;
     border-radius: 5px;
 }
 
@@ -46,6 +51,31 @@ textarea {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.row div:last-child {
+    padding-left: 2vw;
+}
+
+input {
+    height: 30px;
+}
+
+form p,
+input,
+label,
+.submit {
+    padding: 10px 0;
+}
+
+textarea {
+    height: 50px;
+}
+
+.submit button {
+    height: 45px;
+    width: 150px;
+    border-radius: 10px;
 }
 
 @media (max-width: 1024px) and (min-width: 769px) {
@@ -87,6 +117,10 @@ textarea {
 
     .row {
         flex-direction: column;
+    }
+
+    .row div:last-child {
+        padding-left: 0;
     }
 
     form {
