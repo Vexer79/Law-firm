@@ -86,6 +86,7 @@ textarea {
     height: 45px;
     width: 200px;
     border-radius: 10px;
+    font-size: 1.25rem;
 }
 
 form p,
