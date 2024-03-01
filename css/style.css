@@ -177,7 +177,6 @@ main h2 {
     .container-about-us .content .image {
         height: 450px;
         background-position: center;
-        background-size: contain;
     }
 
     .container-areas-of-practice {
