@@ -89,40 +89,41 @@ main h2 {
 }
 
 .container-areas-of-practice {
+    height: 300px;
     display: flex;
     flex-direction: column;
-    height: 50vh;
 }
 
-.container-areas-of-practice h2{
-    height: 14%;
+.container-areas-of-practice h2 {
+    height: 45px;
 }
 
-.container-areas-of-practice .content{
-    height: 86%;
-    display: flex;
+.container-areas-of-practice .content {
+    height: 100%;
+    display: grid;
+    grid-template: 1fr / repeat(4, 1fr);
 }
 
 .box-1 {
-    background: url(../img/icon1.png) center top 20% no-repeat;
+    background: url(../img/icon1.png) center top 20% / 225px no-repeat;
 }
 
 .box-2 {
-    background: url(../img/icon2.png) center top 20% no-repeat;
+    background: url(../img/icon2.png) center top 20% / 225px no-repeat;
 }
 
 .box-3 {
-    background: url(../img/icon3.png) center top 20% no-repeat;
+    background: url(../img/icon3.png) center top 20% / 225px no-repeat;
 }
 
 .box-4 {
-    background: url(../img/icon4.png) center top 20% no-repeat;
+    background: url(../img/icon4.png) center top 20% / 225px no-repeat;
 }
 
-.box-1, .box-2, .box-3, .box-4 {
-    background-size: 62.5%;
-    height: 100%;
-    width: 25%;
+.box-1,
+.box-2,
+.box-3,
+.box-4 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -141,13 +142,13 @@ main h2 {
 }
 
 @media (max-width: 1052px) and (min-width: 941px) {
-    .container-about-us .content{
+    .container-about-us .content {
         padding: 0;
     }
 }
 
 @media (max-width: 941px) {
-    .container-about-us{
+    .container-about-us {
         height: 150vh;
     }
 
@@ -174,5 +175,28 @@ main h2 {
 @media (max-width: 768px) {
     .container-about-us .content .text {
         height: 50%;
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
+
+    .container-areas-of-practice {
+        height: 600px;
+    }
+
+    .container-areas-of-practice .content {
+        height: 100%;
+        grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+
+    .container-areas-of-practice {
+        height: 1200px;
+    }
+
+    .container-areas-of-practice .content {
+        grid-template: repeat(4, 2fr) / 1fr;
     }
 }
