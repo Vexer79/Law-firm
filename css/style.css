@@ -181,6 +181,99 @@ main h2 {
     padding-bottom: 10px;
 }
 
+.container-what-talk-about-us {
+    width: 100%;
+    background-color: #EBEDF1;
+}
+
+.container-what-talk-about-us h2 {
+    padding: 10px 0;
+}
+
+.container-what-talk-about-us .content {
+    background-color: #fff;
+    height: 558px;
+    position: relative;
+    border-top: solid 2px #dee2e6;
+    border-bottom: solid 2px #dee2e6;
+}
+
+.container-what-talk-about-us .content .items {
+    height: 100%;
+    width: 100%;
+}
+
+.container-what-talk-about-us .content button {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    border-bottom: solid 3px #dee2e6;
+    border-right: solid 3px #dee2e6;
+    background-color: transparent;
+    transition: all 1s ease;
+}
+
+.prev {
+    left: 1%;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+.next {
+    right: 1%;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.prev:hover,
+.next:hover {
+    border-bottom: solid 3px #353535 !important;
+    border-right: solid 3px #353535 !important;
+}
+
+.container-what-talk-about-us .content .items>.item {
+    display: flex;
+    height: 100%;
+}
+
+.container-what-talk-about-us .content .items>.item .image {
+    background: url("https://assets-global.website-files.com/65361edcddeda04982e50cf0/6537a3acf9d5ef9abf5892a9_Rectangle%20315.jpg") center / 50% no-repeat;
+    width: 40%;
+    height: 100%;
+    border-radius: 50px;
+}
+
+.container-what-talk-about-us .content .items>.item .comment {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.container-what-talk-about-us .content .items>.item .comment .text {
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+    height: 70%;
+    border-left: solid 5px #353535;
+    font-size: 2.5rem;
+    text-align: justify;
+    font-style: italic;
+}
+
+.container-what-talk-about-us .content .items>.item .comment .text p::first-letter {
+    padding-left: 2rem;
+}
+
+.container-what-talk-about-us .content .items>.item .comment .text p::before {
+    content: '\00AB';
+}
+
+.container-what-talk-about-us .content .items>.item .comment .text p::after {
+    content: '\00BB';
+}
+
 .container-get-in-touch {
     display: flex;
     justify-content: center;
