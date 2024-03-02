@@ -163,6 +163,18 @@ main h2 {
     background-color: orange;
 }
 
+footer {
+    background-color: #1f271b;
+    color: white;
+    height: 50px;
+}
+
+footer nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3%;
+}
+
 @media (max-width: 1024px) and (min-width: 769px) {
 
     .container-about-us {
