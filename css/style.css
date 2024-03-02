@@ -196,6 +196,17 @@ main h2 {
     background-color: orange;
 }
 
+.container-map {
+    height: 400px;
+    width: 100%;
+}
+
+.container-map iframe {
+    height: 100%;
+    width: 100%;
+    filter: grayscale(100%);
+}
+
 footer {
     font-family: "Nunito Sans", serif;
     background-color: #2F3239;
