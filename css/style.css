@@ -31,11 +31,32 @@ nav ul li {
 }
 
 nav ul li a,
+nav ul li a,
 nav ul li a:visited,
-nav ul li a:active {
+nav ul li a:active  {
+    display: inline-block;
+    position: relative;
     font-family: "Nunito Sans", serif;
     color: white;
     font-size: 1.1rem;
+}
+
+nav ul li a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1px;
+    bottom: -2px;
+    left: 0;
+    background-color: #fff;
+    transform-origin: bottom center;
+    transition: transform 0.25s ease-out;
+}
+
+nav ul li a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom center;
 }
 
 .logo {
