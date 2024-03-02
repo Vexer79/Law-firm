@@ -124,6 +124,7 @@ main h2 {
     height: 300px;
     display: flex;
     flex-direction: column;
+    background-color: #dee2e6;
 }
 
 .container-areas-of-practice h2 {
@@ -168,6 +169,7 @@ main h2 {
     justify-content: center;
     align-items: center;
     padding: 2em 0;
+    background-color: #EBEDF1;
 }
 
 .container-get-in-touch a {
@@ -196,7 +198,7 @@ main h2 {
 
 footer {
     font-family: "Nunito Sans", serif;
-    background-color: #1f271b;
+    background-color: #2F3239;
     color: white;
     height: 50px;
 }
