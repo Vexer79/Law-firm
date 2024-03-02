@@ -135,10 +135,31 @@ main h2 {
 .container-get-in-touch {
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 2em 0;
 }
 
-.container-get-in-touch h2:hover {
+.container-get-in-touch a {
+    width: 350px;
+    height: 50px;
+    background-color: #353535;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: "Source Sans 3", serif;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+    text-align: center;
+    transition: all 0.75s ease;
+}
+
+.container-get-in-touch a:active,
+.container-get-in-touch a:visited {
+    color: white;
+}
+
+.container-get-in-touch a:hover {
     background-color: orange;
 }
 
