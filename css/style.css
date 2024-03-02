@@ -94,6 +94,7 @@ main h2 {
 .container-about-us {
     display: flex;
     flex-direction: column;
+    background-color: #EBEDF1;
 }
 
 .container-about-us .content {
