@@ -121,8 +121,6 @@ main h2 {
 }
 
 .container-areas-of-practice {
-    border-top: solid 5px #353535;
-    border-bottom: solid 5px #353535;
     height: 300px;
     display: flex;
     flex-direction: column;
