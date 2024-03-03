@@ -316,6 +316,10 @@ main h2 {
     .container-areas-of-practice .content {
         grid-template: repeat(4, 2fr) / 1fr;
     }
+
+    .container-map iframe {
+        filter: blur(0) grayscale(100%);
+    }
 }
 
 @media (min-width: 768px) {
