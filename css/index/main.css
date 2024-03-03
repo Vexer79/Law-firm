@@ -126,7 +126,6 @@ main h2 {
 
 .container-what-talk-about-us .content {
     background-color: #fff;
-    height: 558px;
     position: relative;
     border-top: solid 2px #dee2e6;
     border-bottom: solid 2px #dee2e6;
@@ -149,13 +148,13 @@ main h2 {
 }
 
 .prev {
-    left: 1%;
+    left: 3%;
     transform: rotate(135deg);
     -webkit-transform: rotate(135deg);
 }
 
 .next {
-    right: 1%;
+    right: 3%;
     transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
 }
@@ -167,33 +166,37 @@ main h2 {
 }
 
 .items>.item {
-    display: flex;
     height: 100%;
+    width: 100%;
 }
 
 .items>.item .image {
-    background: url("https://assets-global.website-files.com/65361edcddeda04982e50cf0/6537a3acf9d5ef9abf5892a9_Rectangle%20315.jpg") center / 50% no-repeat;
-    width: 40%;
-    height: 100%;
+    background: url("https://assets-global.website-files.com/65361edcddeda04982e50cf0/6537a3acf9d5ef9abf5892a9_Rectangle%20315.jpg") center / 55% no-repeat;
+    height: 70vw;
+    width: 100%;
     border-radius: 50px;
 }
 
 .items>.item .comment {
-    width: 60%;
+    width: 100%;
     height: 100%;
     display: flex;
-    align-items: center;
+    justify-content: center;
 }
 
 .items>.item .comment .text {
     display: flex;
     align-items: center;
-    padding: 0 50px;
-    height: 70%;
-    border-left: solid 5px #353535;
+    justify-content: center;
+    border-top: solid 5px #353535;
     font-size: 2.5rem;
     text-align: justify;
     font-style: italic;
+    width: 80%;
+}
+
+.items>.item .comment .text p {
+    padding: 10px 0;
 }
 
 .items>.item .comment .text p::first-letter {
@@ -277,6 +280,15 @@ main h2 {
         height: 100%;
         grid-template: repeat(2, 1fr) / repeat(2, 1fr);
     }
+
+    .items>.item .image {
+        background-size: 75%;
+        width: 35% !important;
+    }
+
+    .items>.item .comment {
+        width: 65% !important;
+    }
 }
 
 @media (max-width: 768px) {
@@ -303,5 +315,39 @@ main h2 {
 
     .container-areas-of-practice .content {
         grid-template: repeat(4, 2fr) / 1fr;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .items>.item {
+        display: flex;
+    }
+
+    .items>.item .image {
+        height: 500px;
+        width: 40%;
+    }
+
+    .items>.item .comment {
+        width: 60%;
+        align-self: center;
+        justify-content: start;
+    }
+
+    .comment .text {
+        padding: 10px;
+        height: 80%;
+        width: 95% !important;
+        border-top: none !important;
+        border-left: solid 5px #353535 !important;
+    }
+
+    .prev {
+        left: 1.25%;
+    }
+
+    .next {
+        right: 1.25%;
     }
 }
