@@ -169,8 +169,13 @@ main h2 {
 }
 
 .items>.item {
+    display: none;
     height: 100%;
     width: 100%;
+}
+
+.items>.item.active {
+    display: block;
 }
 
 .items>.item .image {
@@ -327,7 +332,7 @@ main h2 {
 
 @media (min-width: 768px) {
 
-    .items>.item {
+    .items>.item.active {
         display: flex;
     }
 
