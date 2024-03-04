@@ -153,4 +153,16 @@ body._blocked {
     .body-menu._active ul>li a {
         font-size: 2.5rem !important;
     }
+
+    footer {
+        height: auto !important;
+    }
+
+    footer nav ul {
+        flex-direction: column;
+    }
+
+    footer nav ul>li {
+        padding: 10px 0;
+    }
 }
