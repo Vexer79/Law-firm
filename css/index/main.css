@@ -9,7 +9,7 @@
 }
 
 .container-home h1 {
-    font-family: "Noto Serif", serif;
+    font-family: "Cinzel Decorative", serif;
     color: white;
     font-size: 55px;
     letter-spacing: 2px;
@@ -18,9 +18,11 @@
 
 main h2 {
     text-align: center;
-    font-size: 40px;
+    font-size: 2.5rem;
     align-self: center;
     height: 7%;
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
 }
 
 .container-about-us {
