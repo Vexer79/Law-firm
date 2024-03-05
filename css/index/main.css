@@ -132,6 +132,7 @@ main h2 {
     position: relative;
     border-top: solid 2px #dee2e6;
     border-bottom: solid 2px #dee2e6;
+    overflow: hidden;
 }
 
 .container-what-talk-about-us .content .items {
@@ -169,13 +170,18 @@ main h2 {
 }
 
 .items>.item {
-    display: none;
     height: 100%;
     width: 100%;
+    opacity: 0;
+    position: absolute;
+    transform: translateX(100%);
+    transition: opacity .5s ease-in-out;
 }
 
 .items>.item.active {
-    display: block;
+    opacity: 1;
+    position: relative;
+    transform: translateX(0);
 }
 
 .items>.item .image {
@@ -332,7 +338,7 @@ main h2 {
 
 @media (min-width: 768px) {
 
-    .items>.item.active {
+    .items>.item {
         display: flex;
     }
 
