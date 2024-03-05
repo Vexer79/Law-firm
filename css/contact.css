@@ -10,6 +10,7 @@
 
 .image-container {
     width: 55%;
+    background: url("../img/icon.svg") center / 50% no-repeat;
     background-color: #111111;
 }
 
@@ -117,6 +118,10 @@ textarea {
     .image-container,
     .form-container {
         width: 50%;
+    }
+
+    .image-container {
+        background-size: 70%;
     }
 
     form {
